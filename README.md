@@ -114,7 +114,7 @@ Sou o **time de tecnologia inteiro** de uma indústria de embalagens: levanto o 
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=ViniCampos29&theme=tokyonight&hide_border=true&background=0B0E14&ring=00D4AA&fire=1F6FEB&currStreakLabel=00D4AA&locale=pt_BR&starting_year=2026" />
+  <img src="https://raw.githubusercontent.com/ViniCampos29/ViniCampos29/main/metrics.isocalendar.svg" width="70%" />
 </p>
 
 ---
