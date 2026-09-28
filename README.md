@@ -105,16 +105,16 @@ Sou o **time de tecnologia inteiro** de uma indústria de embalagens: levanto o 
 ## 📈 Estatísticas
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ViniCampos29&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B0E14&title_color=00D4AA&icon_color=1F6FEB&count_private=true&include_all_commits=true&locale=pt-br" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ViniCampos29&layout=compact&theme=tokyonight&hide_border=true&bg_color=0B0E14&title_color=00D4AA&locale=pt-br" />
+  <img src="https://raw.githubusercontent.com/ViniCampos29/ViniCampos29/main/profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ViniCampos29/ViniCampos29/main/profile-summary-card-output/tokyonight/3-stats.svg" width="49%" />
+  <img src="https://raw.githubusercontent.com/ViniCampos29/ViniCampos29/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=ViniCampos29&theme=tokyonight&hide_border=true&background=0B0E14&ring=00D4AA&fire=1F6FEB&currStreakLabel=00D4AA&locale=pt_BR" />
-</p>
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=ViniCampos29&bg_color=0B0E14&color=00D4AA&line=1F6FEB&point=ffffff&area=true&hide_border=true" />
 </p>
 
 ---
