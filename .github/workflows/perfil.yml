@@ -12,6 +12,9 @@ jobs:
   estatisticas:
     runs-on: ubuntu-latest
     steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+
       - name: Gerar cards de estatísticas
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
