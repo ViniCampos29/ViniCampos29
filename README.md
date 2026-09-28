@@ -135,7 +135,7 @@ Sou o **time de tecnologia inteiro** de uma indústria de embalagens: levanto o 
 
 ---
 
-<!-- ============ COBRINHA ANIMADA (precisa do workflow snake.yml) ============ -->
+<!-- ============ COBRINHA ANIMADA (gerada pelo workflow perfil.yml) ============ -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ViniCampos29/ViniCampos29/output/github-snake-dark.svg" />
