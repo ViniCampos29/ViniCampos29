@@ -8,12 +8,17 @@ on:
 permissions:
   contents: write
 
+# impede duas execuções simultâneas (causa do erro "git push")
+concurrency:
+  group: atualizar-perfil
+  cancel-in-progress: false
+
 jobs:
   estatisticas:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Baixar o repositório
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Gerar cards de estatísticas
         uses: vn7n24fzkq/github-profile-summary-cards@release
@@ -26,7 +31,7 @@ jobs:
 
   sequencia:
     needs: estatisticas
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Gerar card de sequência (inclui privados)
         uses: lowlighter/metrics@latest
@@ -39,7 +44,7 @@ jobs:
           plugin_isocalendar_duration: full-year
 
   cobrinha:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Gerar SVGs da cobrinha
         uses: Platane/snk@v3
@@ -51,7 +56,7 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#00D4AA
 
       - name: Publicar na branch output
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
